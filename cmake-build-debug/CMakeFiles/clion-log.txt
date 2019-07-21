@@ -1,0 +1,4 @@
+/home/qian/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/qian/CLionProjects/SlamPractice
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qian/CLionProjects/SlamPractice/cmake-build-debug

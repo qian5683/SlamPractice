@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Batch_file_rename.dir/ch1_Batch_file_rename/main.cpp.o  -o Batch_file_rename 

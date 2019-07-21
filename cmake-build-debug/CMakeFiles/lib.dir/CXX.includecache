@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qian/CLionProjects/SlamPractice/ch1_Batch_file_rename/main.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+stdio.h
+-
+
