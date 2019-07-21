@@ -1,4 +1,5 @@
 /home/qian/CLionProjects/SlamPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qian/CLionProjects/SlamPractice/cmake-build-debug/CMakeFiles/EigenPractice.dir
 /home/qian/CLionProjects/SlamPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/qian/CLionProjects/SlamPractice/cmake-build-debug/CMakeFiles/BatchFileRename.dir
 /home/qian/CLionProjects/SlamPractice/cmake-build-debug/CMakeFiles/eigenDemo.dir

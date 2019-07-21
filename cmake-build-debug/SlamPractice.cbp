@@ -27,6 +27,56 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="EigenPractice">
+				<Option output="/home/qian/CLionProjects/SlamPractice/cmake-build-debug/EigenPractice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qian/CLionProjects/SlamPractice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 EigenPractice"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenPractice/fast">
+				<Option output="/home/qian/CLionProjects/SlamPractice/cmake-build-debug/EigenPractice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qian/CLionProjects/SlamPractice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 EigenPractice/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/qian/CLionProjects/SlamPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/qian/CLionProjects/SlamPractice/cmake-build-debug"/>
 				<Option type="4"/>
@@ -143,6 +193,9 @@
 		</Unit>
 		<Unit filename="/home/qian/CLionProjects/SlamPractice/ch2_Eigen/Demo.cpp">
 			<Option target="eigenDemo"/>
+		</Unit>
+		<Unit filename="/home/qian/CLionProjects/SlamPractice/ch2_Eigen/EigenPractice.cpp">
+			<Option target="EigenPractice"/>
 		</Unit>
 		<Unit filename="/home/qian/CLionProjects/SlamPractice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

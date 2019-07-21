@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named EigenPractice
+
+# Build rule for target.
+EigenPractice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EigenPractice
+.PHONY : EigenPractice
+
+# fast build rule for target.
+EigenPractice/fast:
+	$(MAKE) -f CMakeFiles/EigenPractice.dir/build.make CMakeFiles/EigenPractice.dir/build
+.PHONY : EigenPractice/fast
+
+#=============================================================================
 # Target rules for targets named BatchFileRename
 
 # Build rule for target.
@@ -190,6 +203,33 @@ ch2_Eigen/Demo.cpp.s:
 	$(MAKE) -f CMakeFiles/eigenDemo.dir/build.make CMakeFiles/eigenDemo.dir/ch2_Eigen/Demo.cpp.s
 .PHONY : ch2_Eigen/Demo.cpp.s
 
+ch2_Eigen/EigenPractice.o: ch2_Eigen/EigenPractice.cpp.o
+
+.PHONY : ch2_Eigen/EigenPractice.o
+
+# target to build an object file
+ch2_Eigen/EigenPractice.cpp.o:
+	$(MAKE) -f CMakeFiles/EigenPractice.dir/build.make CMakeFiles/EigenPractice.dir/ch2_Eigen/EigenPractice.cpp.o
+.PHONY : ch2_Eigen/EigenPractice.cpp.o
+
+ch2_Eigen/EigenPractice.i: ch2_Eigen/EigenPractice.cpp.i
+
+.PHONY : ch2_Eigen/EigenPractice.i
+
+# target to preprocess a source file
+ch2_Eigen/EigenPractice.cpp.i:
+	$(MAKE) -f CMakeFiles/EigenPractice.dir/build.make CMakeFiles/EigenPractice.dir/ch2_Eigen/EigenPractice.cpp.i
+.PHONY : ch2_Eigen/EigenPractice.cpp.i
+
+ch2_Eigen/EigenPractice.s: ch2_Eigen/EigenPractice.cpp.s
+
+.PHONY : ch2_Eigen/EigenPractice.s
+
+# target to generate assembly for a file
+ch2_Eigen/EigenPractice.cpp.s:
+	$(MAKE) -f CMakeFiles/EigenPractice.dir/build.make CMakeFiles/EigenPractice.dir/ch2_Eigen/EigenPractice.cpp.s
+.PHONY : ch2_Eigen/EigenPractice.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,6 +237,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... EigenPractice"
 	@echo "... edit_cache"
 	@echo "... BatchFileRename"
 	@echo "... eigenDemo"
@@ -206,6 +247,9 @@ help:
 	@echo "... ch2_Eigen/Demo.o"
 	@echo "... ch2_Eigen/Demo.i"
 	@echo "... ch2_Eigen/Demo.s"
+	@echo "... ch2_Eigen/EigenPractice.o"
+	@echo "... ch2_Eigen/EigenPractice.i"
+	@echo "... ch2_Eigen/EigenPractice.s"
 .PHONY : help
 
 
